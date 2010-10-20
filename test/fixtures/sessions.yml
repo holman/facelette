@@ -1,0 +1,9 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  facetime_id: MyString
+  facetiming: false
+
+two:
+  facetime_id: MyString
+  facetiming: false

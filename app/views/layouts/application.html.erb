@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Facelette</title>
+  <%= stylesheet_link_tag :all %>
+  <%= javascript_include_tag :defaults %>
+  <%= csrf_meta_tag %>
+</head>
+<body>
+
+<div id="header">
+<h1><a href="/">facelette.</a></h1>
+<p>it's like chat roulette but with more apple products and stuff.</p>
+</div>
+
+<div id="content">
+<%= yield %>
+</div>
+
+<div id="footer">
+
+<p>The dumbest experiment ever by <a
+href="http://zachholman.com">Zach Holman</a>. Follow <a
+href="http://twitter.com/holman">@holman</a> on Twitter.</p>
+
+<p>This thang is happily
+powered by <a href="http://github.com">GitHub</a> and <a
+href="http://heroku.com">Heroku</a>.
+</p>
+
+</div>
+</body>
+</html>

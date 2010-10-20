@@ -1,0 +1,5 @@
+<% if @session %>
+  Cool! You're ready to <a href="facetime://<%= @session.facetime_id %>">start a FaceTime</a>.
+<% else %>
+  <p>Waiting to FaceTime you up. We'll let you know when we have someone for you.</p>
+<% end %>
