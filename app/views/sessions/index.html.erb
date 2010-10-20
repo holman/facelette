@@ -2,11 +2,13 @@
   <%= f.label :facetime_id, "Your FaceTime ID" %>
   <%= f.text_field :facetime_id %>
 
-  <p id="id-info"> Your FaceTime ID is the number or email address you use for FaceTime. This
-will be made available to the person FaceTiming you. If you're on a Mac and
-want to be a little cautious, open FaceTime.app, go into File => Preferences,
-and create a new email address for this. You'll have to confirm it, so make
-sure it's not a complete phoney.</p>
+  <p class="id-info"> Your FaceTime ID is the number or email address you use
+  for FaceTime. We'll share this with the people FaceTiming you.</p>
+  
+  <p class="id-info">If you're on a Mac and want to be a little cautious, open
+  FaceTime.app, go into File => Preferences, and create a new email address for
+  this. You'll have to confirm it, so make sure it's not a complete phoney.
+  lol.</p>
 
   <div><%= f.submit "FaceTime me!" %></div>
 <% end %>

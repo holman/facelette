@@ -51,7 +51,7 @@ input[type=submit]{
   font-size: 1.25em;
   width: inherit;
 }
-#id-info{
+.id-info{
   font-size: .75em;
   font-color: #999;
 }
