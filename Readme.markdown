@@ -1,5 +1,21 @@
 # facelette
 
+                ,
+               / \,,_  .'|
+            ,{{| /}}}}/_.'
+           }}}}` '{{'  '.
+         {{{{{    _   ;, \
+      ,}}}}}}    /o`\  ` ;)
+     {{{{{{   /           (
+     }}}}}}   |            \
+    {{{{{{{{   \            \
+    }}}}}}}}}   '.__      _  |
+    {{{{{{{{       /`._  (_\ /
+     }}}}}}'      |    //___/
+     `{{{{`       |     '--'
+      }}}`
+
+
 This absolutely terrible pile of ridiculously stupid code is running at
 facelette.com.
 
